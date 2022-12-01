@@ -37,7 +37,7 @@ int main()
         printf("Leap Year with Distinct digits\n");
     }
     else
-        printf("Year is not good to be leap year and distincts");
+        printf("Year is not good to be leap year and distincts\n");
     return 0;
 }
 
