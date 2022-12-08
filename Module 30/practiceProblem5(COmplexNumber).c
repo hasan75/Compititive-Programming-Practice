@@ -22,7 +22,7 @@ struct Comp multiply(struct Comp a, struct Comp b)
 {
     struct Comp ans;
     ans.real=a.real*b.real - a.imag*b.imag;
-    ans.imag=a.real*b.imag+b.real*a.imag;
+    ans.imag=a.real*b.imag + b.real*a.imag;
     return ans;
 };
 
