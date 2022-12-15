@@ -9,9 +9,9 @@ void recursion_1_to_n(int i,int n)
 
 int main()
 {
-    int n,i=1;
+    int n;
     scanf("%d",&n);
-    recursion_1_to_n(i,n);
+    recursion_1_to_n(1,n);
 
     return 0;
 }
